@@ -20,7 +20,7 @@ In your [.prettierrc.js], import _config-prettier_ and spread it into the export
 const config = require('@fundamend/config-prettier');
 
 module.exports = {
-	...config,
+	...config
 };
 ```
 
@@ -31,7 +31,7 @@ const config = require('@fundamend/config-prettier');
 
 module.exports = {
 	...config,
-	tabWidth: 4,
+	tabWidth: 4
 };
 ```
 
